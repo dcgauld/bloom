@@ -1,0 +1,20 @@
+{
+  "name": "bloom-css",
+  "version": "0.1.0",
+  "description": "A tiny CSS library for web projects.",
+  "license": "MIT",
+  "repository": "dcgauld/bloom",
+  "scripts": {
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable",
+    "prepublishOnly": "pinst --disable",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^5.0.6",
+    "pinst": "^2.1.1",
+    "prettier": "^2.2.1"
+  }
+}
