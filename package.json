@@ -1,5 +1,5 @@
 {
-  "name": "bloom-css",
+  "name": "@dcgauld/bloom",
   "version": "0.1.0",
   "description": "A tiny CSS library for web projects.",
   "license": "MIT",
