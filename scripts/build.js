@@ -21,9 +21,7 @@ function process(minify = false) {
 
   return postcss(plugins)
     .process(inputFile, { from: inputPath, to: outputPath })
-    .then((result) => {
-      fs.outputFileSync(outputPath, result.css);
-    });
+    .then((result) => fs.outputFile(outputPath, result.css));
 }
 
 function build() {
