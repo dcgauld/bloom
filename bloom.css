@@ -1,4 +1,5 @@
 @import './modules/core/variables/variables.css';
 @import './modules/base/base.css';
 @import './modules/buttons/buttons.css';
+@import './modules/forms/forms.css';
 @import './modules/typography/typography.css';
